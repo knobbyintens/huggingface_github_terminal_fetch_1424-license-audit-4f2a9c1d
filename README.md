@@ -21,6 +21,13 @@ upstream resources:
 | Qwen/Qwen2.5-7B-Instruct | model | Qwen/Qwen2.5-7B-Instruct | Base instruction model for supervised fine-tuning |
 | deepseek-ai/DeepSeek-V2.5 | model | deepseek-ai/DeepSeek-V2.5 | Reasoning-trace synthesis model |
 
-## License
+## License Compliance
 
-To be completed after the upstream license audit tracked in the release issue.
+| Resource | Type | License | Classification | Attribution |
+| --- | --- | --- | --- | --- |
+| Avelina/python-edu-cleaned | dataset | odc-by | approved | true |
+| jon-tow/starcoderdata-python-edu | dataset | cc-by-4.0 | approved | true |
+| Qwen/Qwen2.5-7B-Instruct | model | apache-2.0 | approved | false |
+| deepseek-ai/DeepSeek-V2.5 | model | other | requires_review | false |
+
+Overall decision: **requires_review**.
